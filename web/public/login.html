@@ -9,7 +9,7 @@
         <title>TrackMe</title>
     </head>
     <body>
-        <h1>Register New Device</h1>
+        <h1>Login</h1>
         <div class="container">
             <div id="navbar"></div>
             <div id="footer"></div>
@@ -18,17 +18,20 @@
             <script src="app.js"></script>
         </div>
 
-        </div class="form-group">
-            <label for="user">User</label>
-            <input type="text" class="form-control" id="user" />
+        <div class="message" id="message"></div>
+
+        <div class="form-group">
+            <label for="username">User</label>
+            <input type="text" class="form-control" id="username" />
         </div>
 
         <div class="form-group">
-            <label for="name">Device Name</label>
-            <input type="text" class="form-control" id="name" />
+            <label for="password">Password</label>
+            <input type="text" class="form-control" id="password" />
         </div>
 
-        <button class="btn btn-success" id="add-device">Save</button>
+        <button class="btn btn-login" id="login">Login</button>
+
+        <p>Don't have an account? Create one <a href="/registration">here</a>.</p>
     </body>
-    
 </html>
